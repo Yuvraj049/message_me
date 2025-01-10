@@ -8,3 +8,19 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ /* application.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css');
+.chatbox {
+    height: 450px;
+}
+#messages {
+    height: 15em;
+    overflow: auto;
+}
+
+.input {
+    button {
+    display:none;
+}
+}
+
